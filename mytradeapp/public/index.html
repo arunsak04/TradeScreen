@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Trading Application</title>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- Include React library and Babel for JSX compilation -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Include compiled JavaScript files -->
+  <script src="App.js" type="text/babel"></script>
+  <script src="../src/components/TradeListing.jsx" type="text/babel"></script>
+  <script src="../src/components/CreateTrade.jsx" type="text/babel"></script>
+  <script src="../src/components/CreateOrder.jsx" type="text/babel"></script>
+  <script src="../src/components/OrderListing.jsx" type="text/babel"></script>
+  <script src="../src/components/NavBar.jsx"  type="text/babel"></script>
+ 
+  <script type="text/babel">
+    // Render the main App component to the root element
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
+

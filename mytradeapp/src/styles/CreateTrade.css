@@ -1,0 +1,55 @@
+/* CreateTrade.css */
+
+.trade-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .trade-form {
+    width: 500px;
+    padding: 40px;
+    margin-top: 0px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .trade-title {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+    font-size: 40px;
+  }
+  
+  .form-group label {
+    color: #555;
+  }
+  
+  .form-control {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 10px;
+    padding: 0px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    height: 40px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #034489;
+  }
